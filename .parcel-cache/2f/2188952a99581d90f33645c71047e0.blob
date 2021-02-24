@@ -1,0 +1,35 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+const searchContainer = document.querySelector('.search');
+const searchField = document.querySelector('.search__field');
+
+var _parentElement = new WeakMap();
+
+var _data = new WeakMap();
+
+class SearchView {
+  constructor() {
+    _parentElement.set(this, {
+      writable: true,
+      value: searchContainer
+    });
+
+    _data.set(this, {
+      writable: true,
+      value: void 0
+    });
+  }
+
+  getQuery() {
+    return searchField.value;
+  }
+
+}
+
+var _default = new SearchView();
+
+exports.default = _default;
