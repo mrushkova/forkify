@@ -7,7 +7,7 @@ import bookmarksView from './views/bookmarksView.js';
 import addRecipeView from './views/addRecipeView.js';
 
 import 'core-js'; //polyfilling
-import 'regenerator-runtime'; //polyfilling async await
+import 'regenerator-runtime/runtime'; //polyfilling async await
 import { async } from 'regenerator-runtime';
 
 const controlRecipes = async function () {
