@@ -1,4 +1,3 @@
-# ![]()
 <img src="https://github.com/mrushkova/forkify/blob/master/src/img/logo.png" alt="Forkify" width="460"/>
 
 Forkify – [web application](https://mrushkova.github.io/forkify/) for searching a recipe from different sources.  
